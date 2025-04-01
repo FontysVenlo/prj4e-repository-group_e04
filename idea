@@ -1,0 +1,12 @@
+For this project our idea is to make an automatic gate which cars can drive through. The gate should open as soon as a car approaches, and close when the car has finished driving through the gate.
+
+A sensor will be placed infront of the gate which will send a signal to a motor as soon as a car drives infront of the sensor. 
+As soon as the motor recieves the signal it will open the gate upwards, allowing the car to pass. There will also be a second sensor behind the gate to check if the car has passed. 
+If the car has passed the sensor will send a signal to the gate telling the motor that the gate can close again.
+
+If we have enough time we also want to install a camera next to the gate. This camera will then first scan the car's number plate and check if the number plate is registered in the database. 
+Only if the number plate has already been registered in the database will the movement sensor be able to send a signal to the motor.
+
+Things to look out for: The gate should open fast enough that a car can just keep driving without having to stop, but not too fast that the barrier can damage itself by opening too fast. 
+The camera should be placed at an ideal location so it can easily read the number plates.
+Reading the number plate and checking whether the number plate is present in the database cannot take too long, because the car should be able to keep driving without stopping when going through the gate.
